@@ -1,0 +1,53 @@
+{
+    "name": "asisteme-init-template",
+    "version": "1.0.0",
+    "description": "Base template for modular ERP and CRM projects",
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "lint": "next lint",
+        "format": "prettier --write .",
+        "typecheck": "tsc --noEmit",
+        "test": "vitest run",
+        "docker:up": "docker-compose up -d",
+        "docker:down": "docker-compose down"
+    },
+    "dependencies": {
+        "next": "latest",
+        "react": "latest",
+        "react-dom": "latest",
+        "hono": "latest",
+        "drizzle-orm": "latest",
+        "postgres": "latest",
+        "dotenv": "latest",
+        "zod": "latest",
+        "lucide-react": "latest",
+        "zustand": "latest",
+        "framer-motion": "latest",
+        "clsx": "latest",
+        "tailwind-merge": "latest"
+    },
+    "devDependencies": {
+        "@types/node": "latest",
+        "@types/react": "latest",
+        "@types/react-dom": "latest",
+        "typescript": "latest",
+        "tailwindcss": "^3.4.19",
+        "postcss": "^8.4.38",
+        "autoprefixer": "^10.4.19",
+        "eslint": "latest",
+        "eslint-config-next": "latest",
+        "eslint-config-airbnb": "latest",
+        "eslint-config-airbnb-typescript": "latest",
+        "eslint-config-prettier": "latest",
+        "prettier": "latest",
+        "drizzle-kit": "latest",
+        "vitest": "latest"
+    },
+    "engines": {
+        "node": ">=20.0.0",
+        "pnpm": ">=9.0.0"
+    }
+}
